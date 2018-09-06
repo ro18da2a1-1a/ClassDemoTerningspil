@@ -14,8 +14,12 @@ namespace ClassDemoTerningspil
             Spiller spiller = new Spiller();
             spiller.Navn = "Peter";
 
-            spiller.Spil();
+            for (int i = 0; i < 10; i++)
+            {
 
+
+                spiller.VilSpille(i+1);
+            }
 
             // blot for at nå at se resultat
             Console.ReadLine();
